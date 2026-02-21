@@ -1,9 +1,17 @@
-📊 Data Immersion & Wrangling Project
+ Data Immersion & Wrangling Project
 👨‍💻 Author:
 
 Dhanush V Rai
 B.E. Computer Science (Data Science)
 
+# 📊 Superstore Sales Data Cleaning Project
+
+This project demonstrates professional data wrangling techniques including:
+- Data quality assessment
+- Feature engineering
+- Business logic validation
+- Clean dataset preparation
+- 
 📌 Objective
 
 To clean, transform, and prepare raw transactional sales data for analysis by:
@@ -53,6 +61,12 @@ Verified business logic consistency
 ✔ Data Dictionary
 ✔ Feature Engineering
 
+## 🛠 Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Jupyter Notebook
 🎯 Outcome
 
 Produced a structured, analysis-ready dataset for further EDA and business intelligence reporting.
