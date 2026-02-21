@@ -1,34 +1,58 @@
-Data Immersion & Wrangling - Task 1
-Objective
+📊 Data Immersion & Wrangling Project
+👨‍💻 Author:
 
-Performed data cleaning and preparation on Superstore Sales dataset.
+Dhanush V Rai
+B.E. Computer Science (Data Science)
 
-Data Quality Assessment
+📌 Objective
 
-No missing values found
+To clean, transform, and prepare raw transactional sales data for analysis by:
 
-No duplicate records found
+Assessing data quality
 
-Date columns converted to datetime format
+Handling formatting issues
 
-Feature Engineering
+Creating engineered features
 
-Extracted Order Year
+Producing an analysis-ready dataset
 
-Extracted Order Month
+📂 Dataset Used
 
-Calculated Delivery Days
+Sample Superstore Dataset (Sales Transactions)
 
-Created Profit Margin column
+Records: 9,994
+Features: 21
 
-Outlier Assessment
+🔎 Data Quality Assessment
 
-Negative profit values retained as valid business losses
+✔ No missing values
+✔ No duplicate rows
+✔ Converted date columns to datetime
+✔ Verified business-valid negative profits
 
-High sales values retained as legitimate bulk transactions
+🛠 Data Transformations Performed
 
-Output
+Converted Order Date and Ship Date to datetime
 
-Exported cleaned dataset as cleaned_superstore.csv
+Created:
 
-Dataset is now analysis-ready for further EDA.
+Order Year
+
+Order Month
+
+Delivery Days
+
+Profit Margin
+
+Verified business logic consistency
+
+📁 Deliverables
+
+✔ Cleaned Dataset
+✔ Data Cleaning Notebook
+✔ Data Dictionary
+✔ Feature Engineering
+
+🎯 Outcome
+
+Produced a structured, analysis-ready dataset for further EDA and business intelligence reporting.
