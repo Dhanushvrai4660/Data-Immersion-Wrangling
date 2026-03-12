@@ -1,72 +1,116 @@
- Data Immersion & Wrangling Project
-👨‍💻 Author:
+📊 Superstore Sales Data Analysis Project
+👨‍💻 Author
 
 Dhanush V Rai
 B.E. Computer Science (Data Science)
 
-# 📊 Superstore Sales Data Cleaning Project
+📌 Project Overview
 
-This project demonstrates professional data wrangling techniques including:
-- Data quality assessment
-- Feature engineering
-- Business logic validation
-- Clean dataset preparation
-- 
-📌 Objective
+This project demonstrates the complete data analytics workflow, including:
 
-To clean, transform, and prepare raw transactional sales data for analysis by:
+Data Cleaning & Wrangling
 
-Assessing data quality
+Exploratory Data Analysis (EDA)
 
-Handling formatting issues
+SQL-based Business Queries
 
-Creating engineered features
+Multivariate Analysis
 
-Producing an analysis-ready dataset
+Business Insights Dashboard
 
-📂 Dataset Used
+The goal is to transform raw transactional sales data into actionable business insights.
 
-Sample Superstore Dataset (Sales Transactions)
+📂 Dataset
+
+Sample Superstore Dataset
 
 Records: 9,994
+
 Features: 21
 
-🔎 Data Quality Assessment
+Domain: Retail Sales Transactions
+
+🧹 Task-1: Data Immersion & Wrangling
+Objective
+
+Prepare raw data for analysis by cleaning and transforming the dataset.
+
+Data Quality Assessment
 
 ✔ No missing values
 ✔ No duplicate rows
-✔ Converted date columns to datetime
-✔ Verified business-valid negative profits
+✔ Verified negative profit values (valid business cases)
 
-🛠 Data Transformations Performed
+Transformations Performed
 
 Converted Order Date and Ship Date to datetime
 
-Created:
+Created engineered features:
 
-Order Year
+Feature	Description
+Order Year	Extracted year from order date
+Order Month	Extracted month from order date
+Delivery Days	Shipping duration
+Profit Margin	Profit / Sales
+Outcome
 
-Order Month
+A cleaned and analysis-ready dataset for further analytics.
 
-Delivery Days
+📈 Task-2: Exploratory Data Analysis & SQL
+Key Performance Indicators
+Metric	Value
+Total Sales	₹2.29M
+Total Profit	₹286K
+Total Orders	5,009
+Average Discount	15.6%
+SQL Business Questions
 
-Profit Margin
+SQL queries were used to answer key business questions:
 
-Verified business logic consistency
+Top 5 revenue generating products
 
-📁 Deliverables
+Monthly sales trends
 
-✔ Cleaned Dataset
-✔ Data Cleaning Notebook
-✔ Data Dictionary
-✔ Feature Engineering
+Most profitable product category
 
-## 🛠 Technologies Used
+Profit by region
 
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-🎯 Outcome
+Average discount by customer segment
 
-Produced a structured, analysis-ready dataset for further EDA and business intelligence reporting.
+Key Insights
+
+Technology is the most profitable category.
+
+West region generates the highest profit.
+
+Sales peak during Q4 (Nov–Dec) indicating seasonal demand.
+
+Higher discounts often reduce profitability.
+
+📊 Dashboard
+
+A static dashboard was created summarizing:
+
+KPI metrics
+
+Monthly sales trend
+
+Profit by region
+
+Sales by category
+
+🛠 Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib
+
+SQLite (SQL)
+
+Jupyter Notebook
+
+PowerPoint (Dashboard)
